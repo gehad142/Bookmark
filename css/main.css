@@ -1,0 +1,75 @@
+main {
+    min-height: 100vh;
+    background-color: #f7ecde;
+}
+main h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    isolation: isolate;
+   }
+   .py-2{
+    position:  relative !important;
+   }
+main h1::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+}
+main h1::before:hover{
+    height: 450ms;
+}
+.bookmark-body {
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+}
+.bookmark-body h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.fw-semibold {
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-control{
+    box-sizing: border-box;
+   
+}  
+
+.btn-submit{
+    color: #fff;
+    background-color: #d1512d;
+    transition: all 0.5s;
+}
+.btn-submit:hover{
+    background-color: #bb4120;
+    color: #fff;
+}
+.btn-visit{
+    color: #fff;
+    background-color: #9eb23b;
+    transition: all 0.5s;
+}
+.btn-visit:hover{
+ background-color: #8a9e23;
+}
+.btn-delete{
+    color: #fff;
+ background-color: #eb1d36;
+ transition: all 0.5s;
+}
+.btn-delete:hover{
+    background-color: #d30820;
+}
+
